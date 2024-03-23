@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FDA4E1CF2BAE555A00EB3C6E /* DubGrubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E1CE2BAE555A00EB3C6E /* DubGrubApp.swift */; };
-		FDA4E1D12BAE555A00EB3C6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E1D02BAE555A00EB3C6E /* ContentView.swift */; };
 		FDA4E1D32BAE555B00EB3C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E1D22BAE555B00EB3C6E /* Assets.xcassets */; };
 		FDA4E1D62BAE555B00EB3C6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA4E1D52BAE555B00EB3C6E /* Preview Assets.xcassets */; };
+		FDA4E1E02BAE58CF00EB3C6E /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E1DF2BAE58CF00EB3C6E /* AppTabView.swift */; };
+		FDA4E1E22BAE58F100EB3C6E /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E1E12BAE58F100EB3C6E /* LocationMapView.swift */; };
+		FDA4E1E42BAE590E00EB3C6E /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E1E32BAE590E00EB3C6E /* LocationListView.swift */; };
+		FDA4E1E62BAE592500EB3C6E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA4E1E52BAE592500EB3C6E /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FDA4E1CB2BAE555A00EB3C6E /* DubGrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubGrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA4E1CE2BAE555A00EB3C6E /* DubGrubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubGrubApp.swift; sourceTree = "<group>"; };
-		FDA4E1D02BAE555A00EB3C6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDA4E1D22BAE555B00EB3C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDA4E1D52BAE555B00EB3C6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDA4E1DC2BAE56C700EB3C6E /* DubGrub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DubGrub.entitlements; sourceTree = "<group>"; };
+		FDA4E1DF2BAE58CF00EB3C6E /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		FDA4E1E12BAE58F100EB3C6E /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
+		FDA4E1E32BAE590E00EB3C6E /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		FDA4E1E52BAE592500EB3C6E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,10 @@
 			children = (
 				FDA4E1DC2BAE56C700EB3C6E /* DubGrub.entitlements */,
 				FDA4E1CE2BAE555A00EB3C6E /* DubGrubApp.swift */,
-				FDA4E1D02BAE555A00EB3C6E /* ContentView.swift */,
+				FDA4E1DF2BAE58CF00EB3C6E /* AppTabView.swift */,
+				FDA4E1E12BAE58F100EB3C6E /* LocationMapView.swift */,
+				FDA4E1E32BAE590E00EB3C6E /* LocationListView.swift */,
+				FDA4E1E52BAE592500EB3C6E /* ProfileView.swift */,
 				FDA4E1D22BAE555B00EB3C6E /* Assets.xcassets */,
 				FDA4E1D42BAE555B00EB3C6E /* Preview Content */,
 			);
@@ -139,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA4E1D12BAE555A00EB3C6E /* ContentView.swift in Sources */,
+				FDA4E1E02BAE58CF00EB3C6E /* AppTabView.swift in Sources */,
+				FDA4E1E42BAE590E00EB3C6E /* LocationListView.swift in Sources */,
+				FDA4E1E22BAE58F100EB3C6E /* LocationMapView.swift in Sources */,
+				FDA4E1E62BAE592500EB3C6E /* ProfileView.swift in Sources */,
 				FDA4E1CF2BAE555A00EB3C6E /* DubGrubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

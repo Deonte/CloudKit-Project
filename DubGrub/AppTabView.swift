@@ -9,7 +9,23 @@ import SwiftUI
 
 struct AppTabView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            LocationMapView()
+                .tabItem {
+                    Label("Map",
+                          systemImage: "map")
+                }
+            LocationListView()
+                .tabItem {
+                    Label("Locations",
+                          systemImage: "building")
+                }
+            ProfileView()
+                .tabItem {
+                    Label("Profile",
+                          systemImage: "person")
+                }
+        }
     }
 }
 

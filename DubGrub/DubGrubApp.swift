@@ -11,7 +11,7 @@ import SwiftUI
 struct DubGrubApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppTabView()
         }
     }
 }
